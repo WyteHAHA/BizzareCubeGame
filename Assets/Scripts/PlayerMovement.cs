@@ -8,6 +8,13 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
+    public Camera cam;
+    float FOV;
+
+    void Start()
+    {
+        Debug.Log(cam.fieldOfView);
+    }
     // Fixed update is used because we are handling physics and unity like that :)
     void FixedUpdate()
     {
@@ -31,9 +38,20 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-if (rb.position.y < -1f)
+        if (rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame(); // EndGame Function
         }
+        if (Input.GetKey("w"))
+        {
+            FOV = cam.fieldOfView = cam.fieldOfView * 0.9f + 7f;
+            
+        }
+        else
+        {
+            FOV = cam.fieldOfView = cam.fieldOfView * 0.9f + 5f;
+        }
+        Debug.Log(cam.fieldOfView);
+        cam.fieldOfView = FOV;
     }
 }

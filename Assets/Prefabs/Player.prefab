@@ -150,6 +150,7 @@ MonoBehaviour:
   rb: {fileID: 3024935978832857581}
   forwardForce: 4000
   sidewaysForce: 50
+  cam: {fileID: 4190753674621777992, guid: f6903e71e5e4245608292b208c0871d9, type: 3}
 --- !u!114 &4261248758688704323
 MonoBehaviour:
   m_ObjectHideFlags: 0

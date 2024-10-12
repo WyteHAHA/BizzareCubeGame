@@ -1399,6 +1399,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2093729698}
+    - target: {fileID: 4190753674621777992, guid: f6903e71e5e4245608292b208c0871d9, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190753674621777992, guid: f6903e71e5e4245608292b208c0871d9, type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7421094737152656165, guid: f6903e71e5e4245608292b208c0871d9, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -1448,6 +1456,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6903e71e5e4245608292b208c0871d9, type: 3}
+--- !u!20 &3121191699098062389 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4190753674621777992, guid: f6903e71e5e4245608292b208c0871d9, type: 3}
+  m_PrefabInstance: {fileID: 3121191699098062388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5863509749665047734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1460,6 +1473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1577565530099650481, guid: f7f84ddfbbca543fda4d0226514186df, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 3121191699098062389}
     - target: {fileID: 7002518525228584824, guid: f7f84ddfbbca543fda4d0226514186df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
