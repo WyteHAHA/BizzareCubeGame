@@ -119,3 +119,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  canmove: {fileID: 1577565530099650481, guid: f7f84ddfbbca543fda4d0226514186df, type: 3}

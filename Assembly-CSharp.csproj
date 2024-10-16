@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/EndTrigger.cs" />
     <Compile Include="Assets/Scripts/PlayerCollision.cs" />
+    <Compile Include="Assets/Scripts/ParticleHandler.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/Score.cs" />
     <Compile Include="Assets/Scripts/credits.cs" />

@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log(cam.fieldOfView);
     }
-    // Fixed update is used because we are handling physics and unity like that :)
+    // Fixed update is used because we are handling physics and unity likes that :)
     void FixedUpdate()
     {
         // forwardForce is the force at which the player is propelled in the z axis
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         {
             FOV = cam.fieldOfView = cam.fieldOfView * 0.9f + 5f;
         }
-        Debug.Log(cam.fieldOfView);
+        
         cam.fieldOfView = FOV;
     }
 }

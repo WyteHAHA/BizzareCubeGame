@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class credits : MonoBehaviour
 {
@@ -6,5 +7,9 @@ public class credits : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quit");
+    }
+    public void Restart ()
+    {
+        SceneManager.LoadScene(1);
     }
 }
